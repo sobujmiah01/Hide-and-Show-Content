@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.button {
+    border: 2px solid rgb(29, 29, 29);
+    padding: 10px 20px;
+    margin: 30px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #000;
+    color: white;
+}
+.content {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    display: grid; /* Change this to the display */
+    grid-template-columns: auto auto auto; /* Change this to the display grid */
+    grid-gap: 0.5em;
+}
+
+.single {
+    padding: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color:#ddd;
+    border-radius: 8px;
+}
+.active {
+    color: red; /* Change this to the desired color */
+}
